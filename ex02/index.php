@@ -10,7 +10,7 @@
 <body>
   <h1>Exemplo de PHP</h1>
   <?php 
-  
+    echo"Hoje é dia " . date("d/M/Y");
     
   
   ?>
