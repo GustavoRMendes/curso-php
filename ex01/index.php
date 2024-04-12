@@ -12,6 +12,9 @@
     $nome = "Gustavo Mendes";
     echo "Olá, $nome";
   ?>
+  <?
+    // Short Open Tag
+  ?>
 </body>
 
 </html>
