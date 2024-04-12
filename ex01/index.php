@@ -8,7 +8,10 @@
 </head>
 
 <body>
-
+  <?php 
+    $nome = "Gustavo Mendes";
+    echo "Olá, $nome";
+  ?>
 </body>
 
 </html>
