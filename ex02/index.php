@@ -14,7 +14,7 @@
     echo"Hoje é dia " . date("d/M/Y");
     echo "<br>";
     echo "<br>";
-    echo "E a hora atual é " . date("G:i:s");
+    echo "E a hora atual é " . date("G:i:s T");
   
   ?>
 </body>
