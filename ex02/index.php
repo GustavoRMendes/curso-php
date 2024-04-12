@@ -14,8 +14,17 @@
     echo"Hoje é dia " . date("d/M/Y");
     echo "<br>";
     echo "<br>";
-    echo "E a hora atual é " . date("G:i:s T");
-  
+    echo "E a hora atual é " . date("G:i:s T"); 
+    echo "<br>";
+    function myTest () {
+      static $x = 0;
+      echo $x;
+      echo "<br>";
+      $x++;
+    }
+    myTest(); 
+    myTest();
+    myTest();
   ?>
 </body>
 
