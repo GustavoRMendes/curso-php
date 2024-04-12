@@ -25,6 +25,10 @@
     myTest(); 
     myTest();
     myTest();
+    echo "<br>";
+    $primeiroNome = "Gustavo";
+    $sobrenome = "Mendes";
+    echo "Meu nome é " . $primeiroNome . " e meu sobrenome é " . $sobrenome . "!";
   ?>
 </body>
 
