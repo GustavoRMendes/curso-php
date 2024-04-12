@@ -11,7 +11,8 @@
   <h1>Exemplo de PHP</h1>
   <?php 
     echo"Hoje é dia " . date("d/M/Y");
-    
+    echo "<br>";
+    echo "E a hora atual é " . date("G:i:s");
   
   ?>
 </body>
